@@ -1,13 +1,19 @@
 {
-  "name": "url",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Gidrex >_<",
-  "dependencies": {
-    "sqlite3": "^5.1.7"
-  }
+    "name": "url",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "Gidrex >_<",
+    "dependencies": {
+        "@izzqz/prettier": "^1.0.0",
+        "prettier": "^3.2.4"
+    },
+    "prettier": "@izzqz/prettier",
+    "devDependencies": {
+        "sqlite3": "^5.1.7"
+    }
 }
